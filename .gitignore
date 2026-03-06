@@ -1,2 +1,7 @@
 venv/
 .ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+
+__pycache__/

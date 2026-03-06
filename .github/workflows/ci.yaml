@@ -28,7 +28,7 @@ jobs:
         run: ruff check . --select F,E,W,I
 
       - name: Run tests
-        run: python -m pytest
+        run: python -m pytest --cov=app --cov-report=term --cov-fail-under=100
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@ffc3010689be73b8e5ae0c57ce35968afd7909e8 # v5
