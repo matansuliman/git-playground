@@ -1,4 +1,4 @@
-from app.calculator import add, divide
+from app.calculator import add, sub, divide, multiply, power
 
 
 def test_add():
