@@ -15,3 +15,7 @@ def test_divide():
 
 def test_multiply():
     assert multiply(2, 3) == 6
+
+
+def test_power():
+    assert power(2, 3) == 8
