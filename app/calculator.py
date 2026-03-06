@@ -1,5 +1,5 @@
-from .trigonometry_functions import *
-from .trigonometry_functions import *
+from .trigonometry_functions import sin, cos, tan
+from .trigonometry_functions import sin, cos, tan
 
 def add(a, b):
     return a + b
