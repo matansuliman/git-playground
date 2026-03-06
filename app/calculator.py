@@ -1,9 +1,3 @@
-from .trigonometry_functions import sin, cos, tan
-
-
-def add(a, b):
-    return a + b
-
 
 def add(a, b):
     return a + b
