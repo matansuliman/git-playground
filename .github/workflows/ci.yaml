@@ -31,6 +31,6 @@ jobs:
         run: python -m pytest --cov=app --cov-report=term --cov-report=xml --cov-fail-under=100
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@ffc3010689be73b8e5ae0c57ce35968afd7909e8 # v5
+        uses: SonarSource/sonarqube-scan-action@a31c9398be7ace6bbfaf30c0bd5d415f843d45e9 #v7
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
